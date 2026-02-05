@@ -203,7 +203,7 @@ export default function Home() {
             </div>
             <div>
               <img
-                src="/nathalia-portrait.jpeg"
+                src="/nathalia-validation.jpeg"
                 alt="Nathalia Gaitkoski"
                 className="w-full rounded-lg shadow-lg object-cover"
               />
@@ -222,7 +222,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             {videos.map((video) => (
               <div key={video.id} className="rounded-lg overflow-hidden shadow-lg">
-                <div className="aspect-video bg-black flex items-center justify-center relative group">
+                <div className="bg-black flex items-center justify-center relative group" style={{ aspectRatio: '9/16' }}>
                   <iframe
                     width="100%"
                     height="100%"
