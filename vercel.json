@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm install && pnpm build",
+  "buildCommand": "bash build.sh",
   "outputDirectory": "dist",
   "framework": "vite",
   "rewrites": [
